@@ -14,32 +14,24 @@
 
 <body>
 
-  <!-- ===================================================== -->
-  <!-- HEADER -->
-  <!-- ===================================================== -->
   <header class="header">
     <div class="logo">
       <img src="assets/img/logoimpulso360azul.png" alt="Logo Impulso360">
     </div>
 
     <nav class="nav">
-      <a href="#">Inicio</a>
+      <a href="#inicio">Inicio</a>
       <a href="#como-funciona">¿Cómo funciona?</a>
-      <a href="#">Planes</a>
-      <a href="#">Contáctanos</a>
+      <a href="#planes">Planes</a>
+      <a href="#contactanos">Contáctanos</a>
     </nav>
 
-    <a href="#" class="btn btn-primary">Crear Cuenta</a>
+    <a href="#contactanos" class="btn btn-primary">Crear Cuenta</a>
   </header>
-
 
   <main>
 
-    <!-- ===================================================== -->
-    <!--HERO-->
-    <!-- ===================================================== -->
-    <section class="hero section">
-      
+    <section class="hero section" id="inicio">
       <div class="hero-text">
         <h1>
           Impulsa tu negocio <span class="accent-orange">al</span><br>
@@ -54,24 +46,16 @@
           control de tus citas, servicios y horarios en un solo lugar.
         </p>
 
-        <a href="#" class="btn btn-primary">Empezar Ahora</a>
+        <a href="#contactanos" class="btn btn-primary">Empezar Ahora</a>
       </div>
 
       <div class="hero-image">
         <img src="assets/img/iniciolandingilustracionimpulso360.png" alt="Imagen principal">
       </div>
-
     </section>
 
-
-    <!-- ===================================================== -->
-    <!--  SECCIÓN COMO FUNCIONA -->
-    <!-- ===================================================== -->
     <section class="info" id="como-funciona">
-
-      <!-- LEFT -->
       <div class="left">
-
         <span class="pill">TODO EN UN SOLO LUGAR</span>
 
         <h1 class="title">
@@ -86,14 +70,13 @@
         </p>
 
         <div class="card">
-
           <h3>Beneficios principales</h3>
 
           <div class="item">
             <div class="check">✓</div>
             <div>
               <strong>Organiza tus citas sin complicaciones</strong>
-              <p>Agenda y administra citas en segundos.</p>
+              <p>Agenda y administra citas en segundos desde cualquier dispositivo.</p>
             </div>
           </div>
 
@@ -101,7 +84,7 @@
             <div class="check">✓</div>
             <div>
               <strong>Centraliza clientes y recordatorios</strong>
-              <p>Todo en un solo lugar.</p>
+              <p>Toda la información de tus clientes y recordatorios en un solo lugar.</p>
             </div>
           </div>
 
@@ -109,46 +92,31 @@
             <div class="check">✓</div>
             <div>
               <strong>Ahorra tiempo en la gestión diaria</strong>
-              <p>Automatiza tareas repetitivas.</p>
+              <p>Automatiza tareas repetitivas y enfócate en lo que realmente importa.</p>
             </div>
           </div>
 
           <div class="item">
             <div class="check">✓</div>
             <div>
-              <strong>Experiencia profesional</strong>
-              <p>Servicio ordenado y confiable.</p>
+              <strong>Brinda una experiencia más profesional a tus clientes</strong>
+              <p>Ofrece un servicio más ordenado, puntual y confiable.</p>
             </div>
           </div>
-
-          <div class="item">
-            <div class="check">✓</div>
-            <div>
-              <strong>Control total desde un panel</strong>
-              <p>Visualiza tu negocio fácilmente.</p>
-            </div>
-          </div>
-
         </div>
-
-        <button class="btn-orange">Conocer más</button>
-
       </div>
 
-      <!-- RIGHT -->
       <div class="right">
-
-        <img src="assets/img/mockup.jpeg" class="mockup">
+        <img src="assets/img/mockup.jpeg" class="mockup" alt="Mockup de la plataforma">
 
         <h2>Características de la plataforma</h2>
 
         <div class="features">
-
           <div class="f">
             <div class="icon blue">📅</div>
             <div>
               <strong>Agenda inteligente</strong>
-              <p>Evita cruces de horarios.</p>
+              <p>Agenda citas fácilmente, evita cruces de horarios y gestiona tu tiempo.</p>
             </div>
           </div>
 
@@ -156,7 +124,7 @@
             <div class="icon teal">👥</div>
             <div>
               <strong>Gestión de clientes</strong>
-              <p>Historial completo.</p>
+              <p>Almacena información, historial de servicios y preferencias.</p>
             </div>
           </div>
 
@@ -164,25 +132,184 @@
             <div class="icon orange">🔔</div>
             <div>
               <strong>Recordatorios automáticos</strong>
-              <p>Reduce inasistencias.</p>
+              <p>Envía recordatorios para reducir inasistencias.</p>
             </div>
           </div>
 
           <div class="f">
             <div class="icon blue">📊</div>
             <div>
-              <strong>Panel del negocio</strong>
-              <p>Métricas claras.</p>
+              <strong>Panel general del negocio</strong>
+              <p>Consulta tus métricas, ingresos y desempeño.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="plans section" id="planes">
+      <div class="plans-header">
+        <span class="section-label">PLANES</span>
+        <h2>Elige el plan ideal para <span>ordenar tu negocio</span></h2>
+        <p>
+          Planes simples para emprendedores y microempresas que quieren gestionar
+          citas, clientes y recordatorios sin complicarse.
+        </p>
+
+        <div class="toggle">
+          <span class="active">Mensual</span>
+          <span>Anual</span>
+        </div>
+      </div>
+
+      <div class="plans-grid">
+        <div class="plan-card">
+          <h3>Básico</h3>
+          <p>Para negocios que recién empiezan</p>
+          <div class="price">S/ <strong>29</strong> <span>/ mes</span></div>
+
+          <h4>Incluye:</h4>
+          <ul>
+            <li>Agenda de citas</li>
+            <li>Registro básico de clientes</li>
+            <li>Recordatorios manuales</li>
+            <li>Hasta 1 usuario</li>
+            <li>Panel simple del negocio</li>
+          </ul>
+
+          <a href="#contactanos" class="btn btn-outline">Empezar con Básico</a>
+        </div>
+
+        <div class="plan-card featured">
+          <span class="badge">Más elegido</span>
+          <h3>Emprendedor</h3>
+          <p>Ideal para negocios en crecimiento</p>
+          <div class="price">S/ <strong>59</strong> <span>/ mes</span></div>
+
+          <h4>Incluye:</h4>
+          <ul>
+            <li>Agenda inteligente</li>
+            <li>Gestión completa de clientes</li>
+            <li>Recordatorios automáticos</li>
+            <li>Hasta 3 usuarios</li>
+            <li>Panel general del negocio</li>
+            <li>Reporte básico de citas</li>
+          </ul>
+
+          <a href="#contactanos" class="btn btn-primary">Elegir Emprendedor</a>
+        </div>
+
+        <div class="plan-card">
+          <h3>Crecimiento</h3>
+          <p>Para microempresas con más movimiento</p>
+          <div class="price">S/ <strong>99</strong> <span>/ mes</span></div>
+
+          <h4>Incluye:</h4>
+          <ul>
+            <li>Todo lo del plan Emprendedor</li>
+            <li>Hasta 6 usuarios</li>
+            <li>Historial avanzado de clientes</li>
+            <li>Reportes de rendimiento</li>
+            <li>Gestión por servicios</li>
+          </ul>
+
+          <a href="#contactanos" class="btn btn-outline">Elegir Crecimiento</a>
+        </div>
+      </div>
+
+      <div class="help-box">
+        <div class="help-icon"></div>
+        <div class="help-text">
+          <h4>¿No sabes qué plan elegir?</h4>
+          <p>Te ayudamos a encontrar la opción más adecuada según el tamaño de tu negocio.</p>
+        </div>
+        <a href="#contactanos" class="btn btn-primary">Solicitar asesoría</a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contactanos">
+      <div class="contact-left">
+        <span class="section-label">CONTÁCTANOS</span>
+
+        <h2>
+          Empieza a ordenar tu<br>
+          negocio con Impulso<span>360</span>
+        </h2>
+
+        <p>
+          Déjanos tus datos y nuestro equipo se comunicará contigo para ayudarte
+          a modernizar la gestión de tus citas, clientes y recordatorios.
+        </p>
+
+        <div class="info-card">
+          <div class="info-item">
+            <div class="info-icon"></div>
+            <div>
+              <h4>Recibe orientación personalizada</h4>
+              <p>Te ayudamos a identificar qué necesita tu negocio para organizarse mejor.</p>
             </div>
           </div>
 
+          <div class="info-item">
+            <div class="info-icon"></div>
+            <div>
+              <h4>Conoce las funciones principales</h4>
+              <p>Agenda, clientes, recordatorios y panel general en una sola plataforma.</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"></div>
+            <div>
+              <h4>Da el primer paso hacia la digitalización</h4>
+              <p>Empieza con una solución simple, clara y pensada para emprendedores.</p>
+            </div>
+          </div>
         </div>
 
+        <div class="contact-data">
+          <p><strong>+51 946 751 784</strong></p>
+          <p><strong>contacto@impulso360.com</strong></p>
+          <p><strong>Cobertura:</strong> Lima y provincias</p>
+        </div>
       </div>
 
+      <form class="contact-form">
+        <h3>Solicita más información</h3>
+        <p>Completa el formulario y te contactaremos pronto.</p>
+
+        <input type="text" placeholder="Nombre completo*">
+        <input type="text" placeholder="Nombre del negocio*">
+        <input type="email" placeholder="Correo electrónico*">
+        <input type="tel" placeholder="Celular* (9 dígitos)">
+        <input type="text" placeholder="Tipo de negocio">
+        <input type="text" placeholder="¿Qué necesitas mejorar?">
+        <textarea placeholder="Mensaje*"></textarea>
+
+        <label class="checkbox">
+          <input type="checkbox">
+          <span>He leído y acepto la política de privacidad.</span>
+        </label>
+
+        <button type="submit" class="btn btn-primary btn-full">Enviar solicitud</button>
+      </form>
     </section>
 
   </main>
+
+  <footer class="footer">
+    <div class="footer-logo">
+      <img src="assets/img/logo2.png" alt="Logo footer">
+    </div>
+
+    <p>© 2026 Impulso360. Todos los derechos reservados.</p>
+
+    <div class="footer-links">
+      <a href="#">Aviso legal</a>
+      <a href="#">Política de privacidad</a>
+      <a href="#">Política de cookies</a>
+    </div>
+  </footer>
 
 </body>
 </html>
