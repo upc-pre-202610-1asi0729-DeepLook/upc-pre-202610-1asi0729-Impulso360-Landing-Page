@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impulso360</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="iniciolanding.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <img src="assets/img/logoimpulso360azul.png" alt="Logo Impulso360">
+    </div>
+
+    <nav class="nav">
+      <a href="#inicio" data-i18n="nav_home">Inicio</a>
+      <a href="#como-funciona" data-i18n="nav_how">¿Cómo funciona?</a>
+      <a href="#planes" data-i18n="nav_plans">Planes</a>
+      <a href="#contactanos" data-i18n="nav_contact">Contáctanos</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#contactanos" class="btn btn-primary" data-i18n="btn_signup">Crear Cuenta</a>
+      <button id="lang-toggle" class="btn btn-outline" type="button" onclick="toggleLanguage()">EN</button>
+      
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero section" id="inicio">
+      <div class="hero-text">
+        <h1>
+          <span data-i18n="hero_title_1">Impulsa tu negocio</span>
+          <span class="accent-orange" data-i18n="hero_accent_al">al</span><br>
+          <span data-i18n="hero_title_2">siguiente</span>
+          <span class="accent-cyan" data-i18n="hero_accent_lvl">nivel</span>
+        </h1>
+
+        <h3 data-i18n="hero_subtitle">Haz que tus clientes agenden contigo de forma fácil</h3>
+
+        <p data-i18n="hero_desc">
+          Convierte tu negocio en una experiencia más ordenada, profesional y accesible. Con Impulso360, tus clientes pueden reservar en línea mientras tú mantienes el control de tus citas, servicios y horarios en un solo lugar.
+        </p>
+
+        <a href="#contactanos" class="btn btn-primary" data-i18n="btn_start">Empezar Ahora</a>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/img/iniciolandingilustracionimpulso360.png" alt="Imagen principal">
+      </div>
+    </section>
+
+    <section class="info" id="como-funciona">
+      <div class="left">
+        <span class="pill" data-i18n="pill_label">TODO EN UN SOLO LUGAR</span>
+
+        <h1 class="title" data-i18n="info_title">
+          Todo lo que necesitas para gestionar tu negocio en un solo lugar
+        </h1>
+
+        <p class="desc" data-i18n="info_desc">
+          Impulso360 reúne todas las herramientas que necesitas para organizar, automatizar y hacer crecer tu negocio de forma simple y profesional.
+        </p>
+
+        <div class="card">
+          <h3 data-i18n="benefits_heading">Beneficios principales</h3>
+
+          <div class="item">
+            <div class="check">✓</div>
+            <div>
+              <strong data-i18n="benefit_1_title">Organiza tus citas sin complicaciones</strong>
+              <p data-i18n="benefit_1_text">Agenda y administra citas en segundos desde cualquier dispositivo.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="check">✓</div>
+            <div>
+              <strong data-i18n="benefit_2_title">Centraliza clientes y recordatorios</strong>
+              <p data-i18n="benefit_2_text">Toda la información de tus clientes y recordatorios en un solo lugar.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="check">✓</div>
+            <div>
+              <strong data-i18n="benefit_3_title">Ahorra tiempo en la gestión diaria</strong>
+              <p data-i18n="benefit_3_text">Automatiza tareas repetitivas y enfócate en lo que realmente importa.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="check">✓</div>
+            <div>
+              <strong data-i18n="benefit_4_title">Brinda una experiencia más profesional a tus clientes</strong>
+              <p data-i18n="benefit_4_text">Ofrece un servicio más ordenado, puntual y confiable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <img src="assets/img/mockup.jpeg" class="mockup" alt="Mockup de la plataforma">
+
+        <h2 data-i18n="features_heading">Características de la plataforma</h2>
+
+        <div class="features">
+          <div class="f">
+            <div class="icon blue">📅</div>
+            <div>
+              <strong data-i18n="feature_1_title">Agenda inteligente</strong>
+              <p data-i18n="feature_1_text">Agenda citas fácilmente, evita cruces de horarios y gestiona tu tiempo.</p>
+            </div>
+          </div>
+
+          <div class="f">
+            <div class="icon teal">👥</div>
+            <div>
+              <strong data-i18n="feature_2_title">Gestión de clientes</strong>
+              <p data-i18n="feature_2_text">Almacena información, historial de servicios y preferencias.</p>
+            </div>
+          </div>
+
+          <div class="f">
+            <div class="icon orange">🔔</div>
+            <div>
+              <strong data-i18n="feature_3_title">Recordatorios automáticos</strong>
+              <p data-i18n="feature_3_text">Envía recordatorios para reducir inasistencias.</p>
+            </div>
+          </div>
+
+          <div class="f">
+            <div class="icon blue">📊</div>
+            <div>
+              <strong data-i18n="feature_4_title">Panel general del negocio</strong>
+              <p data-i18n="feature_4_text">Consulta tus métricas, ingresos y desempeño.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="plans section" id="planes">
+      <div class="plans-header">
+        <span class="section-label" data-i18n="section_plans">PLANES</span>
+
+        <h2 data-i18n="plans_title">Elige el plan ideal para ordenar tu negocio</h2>
+
+        <p data-i18n="plans_desc">
+          Planes simples para emprendedores y microempresas que quieren gestionar citas, clientes y recordatorios sin complicarse.
+        </p>
+
+        <div class="toggle">
+          <span class="active" data-i18n="toggle_monthly">Mensual</span>
+          <span data-i18n="toggle_annual">Anual</span>
+        </div>
+      </div>
+
+      <div class="plans-grid">
+        <div class="plan-card">
+          <h3 data-i18n="plan_basic_name">Básico</h3>
+          <p data-i18n="plan_basic_tagline">Para negocios que recién empiezan</p>
+
+          <div class="price">
+            S/ <strong data-i18n="plan_basic_price">29</strong> <span data-i18n="plan_basic_period">/ mes</span>
+          </div>
+
+          <h4>Incluye:</h4>
+          <ul>
+            <li data-i18n="plan_basic_1">Agenda de citas</li>
+            <li data-i18n="plan_basic_2">Registro básico de clientes</li>
+            <li data-i18n="plan_basic_3">Recordatorios manuales</li>
+            <li data-i18n="plan_basic_4">Hasta 1 usuario</li>
+            <li data-i18n="plan_basic_5">Panel simple del negocio</li>
+          </ul>
+
+          <a href="#contactanos" class="btn btn-outline" data-i18n="btn_basic">Empezar con Básico</a>
+        </div>
+
+        <div class="plan-card featured">
+          <span class="badge" data-i18n="plan_pro_badge">Más elegido</span>
+
+          <h3 data-i18n="plan_pro_name">Emprendedor</h3>
+          <p data-i18n="plan_pro_tagline">Ideal para negocios en crecimiento</p>
+
+          <div class="price">
+            S/ <strong data-i18n="plan_pro_price">59</strong> <span data-i18n="plan_pro_period">/ mes</span>
+          </div>
+
+          <h4>Incluye:</h4>
+          <ul>
+            <li data-i18n="plan_pro_1">Agenda inteligente</li>
+            <li data-i18n="plan_pro_2">Gestión completa de clientes</li>
+            <li data-i18n="plan_pro_3">Recordatorios automáticos</li>
+            <li data-i18n="plan_pro_4">Hasta 3 usuarios</li>
+            <li data-i18n="plan_pro_5">Panel general del negocio</li>
+            <li data-i18n="plan_pro_6">Reporte básico de citas</li>
+          </ul>
+
+          <a href="#contactanos" class="btn btn-primary" data-i18n="btn_pro">Elegir Emprendedor</a>
+        </div>
+
+        <div class="plan-card">
+          <h3 data-i18n="plan_grow_name">Crecimiento</h3>
+          <p data-i18n="plan_grow_tagline">Para microempresas con más movimiento</p>
+
+          <div class="price">
+            S/ <strong data-i18n="plan_grow_price">99</strong> <span data-i18n="plan_grow_period">/ mes</span>
+          </div>
+
+          <h4>Incluye:</h4>
+          <ul>
+            <li data-i18n="plan_grow_1">Todo lo del plan Emprendedor</li>
+            <li data-i18n="plan_grow_2">Hasta 6 usuarios</li>
+            <li data-i18n="plan_grow_3">Historial avanzado de clientes</li>
+            <li data-i18n="plan_grow_4">Reportes de rendimiento</li>
+            <li data-i18n="plan_grow_5">Gestión por servicios</li>
+          </ul>
+
+          <a href="#contactanos" class="btn btn-outline" data-i18n="btn_grow">Elegir Crecimiento</a>
+        </div>
+      </div>
+
+      <div class="help-box">
+        <div class="help-icon"></div>
+        <div class="help-text">
+          <h4 data-i18n="help_title">¿No sabes qué plan elegir?</h4>
+          <p data-i18n="help_desc">Te ayudamos a encontrar la opción más adecuada según el tamaño de tu negocio.</p>
+        </div>
+        <a href="#contactanos" class="btn btn-primary" data-i18n="btn_advisory">Solicitar asesoría</a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contactanos">
+      <div class="contact-left">
+        <span class="section-label" data-i18n="section_contact">CONTÁCTANOS</span>
+
+          
+        <h2 data-i18n="contact_title_1">Empieza a ordenar tu </span> Empieza a ordenar tu<br></h2>
+        <h2 data-i18n="contact_title_2">negocio con Impulso360</h2> 
+
+
+        <p data-i18n="contact_desc">
+          Déjanos tus datos y nuestro equipo se comunicará contigo para ayudarte a modernizar la gestión de tus citas, clientes y recordatorios.
+        </p>
+
+        <div class="info-card">
+          <div class="info-item">
+            <div class="info-icon"></div>
+            <div>
+              <h4 data-i18n="contact_info_1_title">Recibe orientación personalizada</h4>
+              <p data-i18n="contact_info_1_text">Te ayudamos a identificar qué necesita tu negocio para organizarse mejor.</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"></div>
+            <div>
+              <h4 data-i18n="contact_info_2_title">Conoce las funciones principales</h4>
+              <p data-i18n="contact_info_2_text">Agenda, clientes, recordatorios y panel general en una sola plataforma.</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"></div>
+            <div>
+              <h4 data-i18n="contact_info_3_title">Da el primer paso hacia la digitalización</h4>
+              <p data-i18n="contact_info_3_text">Empieza con una solución simple, clara y pensada para emprendedores.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-data">
+          <p><strong data-i18n="contact_phone">+51 946 751 784</strong></p>
+          <p><strong data-i18n="contact_email">contacto@impulso360.com</strong></p>
+          <p>
+            <strong data-i18n="contact_coverage">Cobertura:</strong>
+            <span data-i18n="contact_coverage_val">Lima y provincias</span>
+          </p>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <h3 data-i18n="form_heading">Solicita más información</h3>
+        <p data-i18n="form_subheading">Completa el formulario y te contactaremos pronto.</p>
+
+        <input type="text" data-i18n="form_name" placeholder="Nombre completo*">
+        <input type="text" data-i18n="form_business" placeholder="Nombre del negocio*">
+        <input type="email" data-i18n="form_email" placeholder="Correo electrónico*">
+        <input type="tel" data-i18n="form_phone" placeholder="Celular* (9 dígitos)">
+        <input type="text" data-i18n="form_type" placeholder="Tipo de negocio">
+        <input type="text" data-i18n="form_need" placeholder="¿Qué necesitas mejorar?">
+        <textarea data-i18n="form_message" placeholder="Mensaje*"></textarea>
+
+        <label class="checkbox">
+          <input type="checkbox">
+          <span data-i18n="form_privacy">He leído y acepto la política de privacidad.</span>
+        </label>
+
+        <button type="submit" class="btn btn-primary btn-full" data-i18n="btn_send">Enviar solicitud</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-logo">
+      <img src="assets/img/logo2.png" alt="Logo footer">
+    </div>
+
+    <p data-i18n="footer_copy">© 2026 Impulso360. Todos los derechos reservados.</p>
+
+    <div class="footer-links">
+      <a href="#" data-i18n="footer_legal">Aviso legal</a>
+      <a href="#" data-i18n="footer_privacy">Política de privacidad</a>
+      <a href="#" data-i18n="footer_cookies">Política de cookies</a>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
